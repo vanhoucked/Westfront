@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slideshow App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="language-selection" class="buttons">
+        <button onclick="selectLanguage('nl')">NEDERLANDS</button>
+        <button onclick="selectLanguage('fr')">FRANCAIS</button>
+        <button onclick="selectLanguage('de')">DEUTSCH</button>
+        <button onclick="selectLanguage('en')">ENGLISH</button>
+    </div>
+    
+    <div id="theme-selection" class="buttons" style="display: none;">
+        <h2>Select Theme:</h2>
+        <button onclick="selectTheme('thema1')">Thema 1</button>
+        <button onclick="selectTheme('theme2')">Thema 2</button>
+        <button onclick="selectTheme('thema3')">Thema 3</button>
+        <button onclick="selectTheme('thema4')">Thema 4</button>
+    </div>
+
+    <div id="slideshow" style="display: none;">
+        <div id="slideshow-container"></div>
+        <button id="prev" onclick="showPrevSlide()">Vorige</button>
+        <button id="next" onclick="showNextSlide()">Volgende</button>
+    </div>
+
+    <img id="homeKnop" src="img/home.png" onclick="toHome()">
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

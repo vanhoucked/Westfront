@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taal Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="language-selection">
+        <div id="taalKnoppen">
+            <button id="nl" onclick="selectLanguage('nl')">Nederlands</button>
+            <button id="fr" onclick="selectLanguage('fr')">Frans</button>
+            <button id="en" onclick="selectLanguage('en')">Engels</button>
+            <button id="de" onclick="selectLanguage('de')">Duits</button>
+        </div>
+        <div id="startUitleg">
+            <p id="welcome-text"></p>
+            <p id="welcome-text2"></p>
+            <button id="start-button" onclick="startQuiz()" style="display:none;">Start</button>
+        </div>
+    </div>
+    
+    <div id="quiz">
+        <h1 id="question-text"></h1>
+        <button onclick="submitAnswer('A')" id="answerA"></button>
+        <button onclick="submitAnswer('B')" id="answerB"></button>
+        <button onclick="submitAnswer('C')" id="answerC"></button>
+        <h2 id="progress"></h2>
+    </div>
+    
+    <div id="result">
+        <div id="leftResult"></div>
+        <div id="rightResult"></div>
+    </div>
+
+    <img id="homeKnop" src="img/home.png" onclick="toHome()">
+
+    <script src="script.js"></script>
+</body>
+</html>
