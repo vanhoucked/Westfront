@@ -15,7 +15,7 @@ body, html {
     text-align: center;
 
     background-color: var(--appelblauw-accent);
-    color: var(--zacht-okergeel-accent);
+    color: white;
 
     margin: 0;
     padding: 0;
@@ -65,8 +65,8 @@ button {
     width: 300px;
     height: 150px;
 
-    background-color: var(--donkerblauw-ellie);
-    color: var(--zacht-okergeel-accent);
+    background-color: var(--groen-blauw-juul);
+    color: var(--zalmroze-rosa);
     text-transform: uppercase;
     font-family: AvenirNextLT, MediumIt;
     font-size: 30px;

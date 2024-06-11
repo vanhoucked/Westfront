@@ -7,7 +7,7 @@ let inactiviteitTimer;
 
 function resetTimer() {
     clearTimeout(inactiviteitTimer);
-    inactiviteitTimer = setTimeout(toHome, 600000); // 1 minuten x 60 000 = 60000 milliseconden
+    inactiviteitTimer = setTimeout(toHome, 60000); // 1 minuten x 60 000 = 60000 milliseconden
 }
 
 // Load questions and answers from JSON file

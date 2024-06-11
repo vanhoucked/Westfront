@@ -19,7 +19,7 @@ body, html {
     align-items: center;
 
     background-color: var(--appelblauw-accent);
-    color: var(--zacht-okergeel-accent);
+    color: white;
 
     font-family: AvenirNextLT, MediumIt;
 
