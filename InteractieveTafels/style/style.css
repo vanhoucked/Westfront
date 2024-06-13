@@ -18,14 +18,14 @@ h1, h2, h3 {
 
 #vorigeKnop {
     position: absolute;
-    bottom: 50px;
-    right: 400px;
+    top: 300px;
+    left: 50px;
 }
 
 #volgendeKnop {
     position: absolute;
-    bottom: 50px;
-    right: 300px;
+    top: 300px;
+    right: 50px;
 }
 
 .slide {
@@ -36,7 +36,7 @@ h1, h2, h3 {
     grid-row-gap: 0px;
 
     height: 900px;
-    width: 1700px;
+    width: 1650px;
 }
 
 .slide > h1 { 
@@ -55,4 +55,7 @@ h1, h2, h3 {
     font-size: 30px;
     line-height: 40px;
     margin: 0;
+
+    text-align: justify;
+    text-justify: inter-word;
 }

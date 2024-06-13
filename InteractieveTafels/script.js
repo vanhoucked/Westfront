@@ -33,7 +33,7 @@ async function showTitle() {
 
         titleStartDiv.innerHTML = "";
         slideshowContainerDiv.style.display = 'none';
-        titleStartDiv.style.display = 'block';
+        titleStartDiv.style.display = 'grid';
 
         jsonData.titels.forEach(item => {
             const h1Element = document.createElement('h1');

@@ -11,7 +11,7 @@
 }
 
 #languageSelection {
-    margin-left: 100px;
+    margin-left: 140px;
 
     display: flex;
     justify-content: space-between;
@@ -27,6 +27,6 @@
 }
 
 #bottomMenu > img {
-    margin: 10px 100px;
+    margin: 10px 140px;
     height: 70%;
 }
