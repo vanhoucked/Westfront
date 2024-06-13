@@ -1,0 +1,32 @@
+#bottomMenu {
+    height: 100px;
+    width: 1920px;
+
+    display: flex;
+    justify-content: space-between;
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+#languageSelection {
+    margin-left: 100px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    width: 450px;
+
+    font-size: 23px;
+}
+
+#languageSelection > p {
+    text-underline-offset: 10px;
+}
+
+#bottomMenu > img {
+    margin: 10px 100px;
+    height: 70%;
+}

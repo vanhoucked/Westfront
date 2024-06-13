@@ -1,0 +1,58 @@
+@import url("fonts.css");
+@import url("pageStyle.css");
+@import url("bottom.css");
+
+h1, h2, h3 {
+    font-family: FayonGrandePro;
+}
+
+#titleStart {
+    text-align: center;
+    font-size: 65px;
+}
+
+#slideshowContainer > p {
+    font-family: Webdings;
+    font-size: 80px;
+}
+
+#vorigeKnop {
+    position: absolute;
+    bottom: 50px;
+    right: 400px;
+}
+
+#volgendeKnop {
+    position: absolute;
+    bottom: 50px;
+    right: 300px;
+}
+
+.slide {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 6fr;
+    grid-column-gap: 40px;
+    grid-row-gap: 0px;
+
+    height: 900px;
+    width: 1700px;
+}
+
+.slide > h1 { 
+    grid-column: span 2 !important;
+    font-size: 80px;
+    margin: 20px 0 10px 0;
+}
+.slide > img { 
+    grid-area: 2 / 1 / 2 / 1; 
+    max-height: 750px;
+    width: 95%
+    
+}
+.slide > p { 
+    grid-area: 2 / 2 / 2 / 2;
+    font-size: 30px;
+    line-height: 40px;
+    margin: 0;
+}

@@ -1,0 +1,51 @@
+:root {
+    --appelblauw-accent: #4b9baa;
+    --zacht-okergeel-accent: #f2cf66;
+    --groen-blauw-juul: #025159;
+    --donkerblauw-ellie: #003264;
+    --zalmroze-rosa: #e6a687;
+
+    --primaryColor: rgb(150,170,159);
+    --secondaryColor: rgb(191,198,190);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: HelveticaNeue;
+}
+
+html {
+    overflow: hidden;
+}
+
+body {
+    background-color: var(--secondaryColor);
+
+    width: 1920px;
+    height: 1080px;
+}
+
+#borderContainer {
+    border: 2px solid var(--primaryColor);
+
+    width: 1800px;
+    height: 920px;
+
+    margin: 50px auto ;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#innerPage {
+    background-color: var(--primaryColor);
+
+    width: 1780px;
+    height: 900px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

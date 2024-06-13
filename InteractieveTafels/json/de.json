@@ -1,0 +1,72 @@
+{
+    
+    "titels":
+    [
+    {
+      "titel": "DE - De aanloop",
+      "thema": "thema1"
+    },
+    {
+      "titel": "DE - De inval",
+      "thema": "thema2"
+    }
+    ],
+
+    "thema1": 
+    [
+      {
+        "titel": "DE - Kruitvat",
+        "image": "Kruitvat.png",
+        "text": "In 1914 was Europa verdeeld in twee grote machtsblokken. Aan de ene kant had je de Triple Entente. Die werd gevormd door het Britse Rijk, Frankrijk en Rusland. Tegenover hen stond de Triple Alliance van Duitsland, Oostenrijk-Hongarije en Italië. Binnen elk machtsblok waren verdragen gesloten en afspraken gemaakt. Werd één van de bondgenoten aangevallen, dan zouden de andere twee militair te hulp komen. Eén vonk was genoeg om het kruitvat tot ontploffing te brengen."
+      },
+      {
+        "titel": "DE - Wapenwedloop",
+        "image": "Wapenwedloop.png",
+        "text": "De 19e eeuw was de tijd van de industriële revolutie. Die zette ook een turbo op de wapenindustrie. Fabrieken gingen massa’s geweren, granaten, mortieren en kanonnen produceren. Scheepswerven bouwden het ene slagschip na het andere. Afnemers vinden was geen probleem: elk land wilde immers beter bewapend zijn dan zijn rivalen. Zo ontstond een dodelijke wapenwedloop. Als het ooit oorlog zou worden, zou die worden uitgevochten met veel meer en veel zwaardere wapens dan ooit tevoren."
+      },
+      {
+        "titel": "DE - Dienstplicht",
+        "image": "Dienstplicht.png",
+        "text": "Behalve wapens hadden de legers ook massa’s soldaten nodig. Daarom voerden steeds meer landen de dienstplicht in. Duitsland kon ruim 2 miljoen mannen mobiliseren, Frankrijk 1,8 miljoen, en Rusland zelfs 3,4 miljoen. Alleen in het Britse Rijk bestond in 1914 nog geen dienstplicht. Het had een veel kleiner, maar uitstekend getraind beroepsleger van zowat 250.000 man. België voerde in 1913 de algemene dienstplicht in. In geval van oorlog kon ons land zowat 200.000 man onder de wapens roepen."
+      },
+      {
+        "titel": "DE - Het Schlieffenplan",
+        "image": "Schlieffenplan.png",
+        "text": "Duitsland werd aan twee kanten ingesloten door vijanden: in het westen Frankrijk, in het oosten Rusland. Om te voorkomen dat zijn leger op twee fronten tegelijk zou moeten vechten, had de Duitse stafchef von Schlieffen een strijdplan bedacht. Volgens het Schlieffenplan moest Duitsland eerst Frankrijk verslaan. Die klus moest in 6 weken geklaard zijn: zo lang hadden de Russen namelijk nodig om hun enorme leger te mobiliseren. Maar het plan kon alleen slagen als het Duitse leger zou oprukken door het neutrale België."
+      },
+      {
+        "titel": "DE - De vonk",
+        "image": "DeVonk.png",
+        "text": "28 juni 1914. In Sarajevo worden de Oostenrijkse kroonprins Franz Ferdinand en zijn vrouw Sophie doodgeschoten door een Servische nationalist. Het is de vonk die het kruitvat tot ontploffing zal brengen. Oostenrijk eist genoegdoening van Servië. Rusland schaart zich achter Servië, Duitsland steunt Oostenrijk. Door het spel van de bondgenootschappen raken ook de andere grootmachten betrokken. Op 1 augustus verklaart Duitsland de oorlog aan Rusland. Al snel vliegen de oorlogsverklaringen over en weer. De Eerste Wereldoorlog is begonnen."
+      }
+    ],
+
+    "thema2": 
+    [
+      {
+        "titel": "DE - De inval",
+        "image": "Kruitvat.png",
+        "text": "Op 4 augustus 1914, een stralende zomerdag, trekken de eerste Duitse troepen de Belgische grens over. Ze rukken op naar Luik, dat beschermd wordt door een ring van moderne forten. Het kost ze 12 dagen om de stad in te nemen, veel langer dan verwacht. Verderop zorgen de forten rond Namen voor nog meer oponthoud. Ook op andere plaatsen bieden Belgische eenheden weerstand, onder meer aan de Demer en de Gete. Ze kunnen de Duitse opmars niet stoppen, maar wel afremmen."
+      },
+      {
+        "titel": "DE - Onschuldige burgers vermoord",
+        "image": "Kruitvat.png",
+        "text": "Het felle Belgische verzet maakt de Duitsers zenuwachtig. Ze zijn vooral bang voor ‘franc-tireurs’, gewapende burgers die zogenaamd hun soldaten zouden belagen. In werkelijkheid zijn die er nauwelijks – nu zouden we het fake news noemen. Maar de Duitsers reageren met geweld en terreur. In Leuven branden ze de halve stad plat. In plaatsen als Dinant, Tamines, Aarschot en Dendermonde, maar ook in kleine dorpen, vermoorden ze honderden onschuldige mensen. In totaal kost de Duitse inval meer dan 5000 Belgische burgers het leven."
+      },
+      {
+        "titel": "DE - Terugtrekken!",
+        "image": "Kruitvat.png",
+        "text": "Na twee weken strijd wordt de Duitse druk te groot. Op 18 augustus geeft koning Albert zijn leger het bevel om zich terug te trekken naar Antwerpen. Die stad wordt, net als Luik, beschermd door een ring van forten. In de rest van België rukken de Duitsers verder op. Maar niet ongehinderd: vanuit Antwerpen vallen de Belgen hen drie keer aan in de flank. De Duitsers verliezen opnieuw heel wat manschappen, en vooral: kostbare tijd. Ons land krijgt ook hulp van Franse en Britse troepen. Zij leveren strijd in de Ardennen en bij Mons."
+      },
+      {
+        "titel": "DE - De Duitse opmars gestuit",
+        "image": "Kruitvat.png",
+        "text": "Intussen is het grootste deel van het Duitse leger al in Frankrijk. Begin september wordt daar de eerste massale veldslag uit de oorlog uitgevochten: de Slag aan de Marne. Aan beide kanten vallen tienduizenden doden. Maar de opmars van de Duitsers is gestuit: Parijs zullen ze nooit bereiken. Het Schlieffenplan heeft gefaald. In België hebben de Duitsers meer succes. Op 10 oktober, na een wekenlang beleg, valt Antwerpen. Belgische en Britse troepen trekken zich halsoverkop terug in de richting van de kust."
+      },
+      {
+        "titel": "DE - De race naar het westen",
+        "image": "Kruitvat.png",
+        "text": "De Duitsers hebben nu nog één doel: de Belgische Noordzeehavens veroveren. In Oostende en Zeebrugge lukt hen dat. Vier jaar lang zullen ze van hieruit de geallieerde bevoorrading over zee verstoren. Toch veroveren ze niet héél het land. Het Belgisch leger heeft zich verschanst achter de IJzer, in de verste uithoek van het land. Twee weken lang weten ze de Duitsers tegen te houden. Dan, eind oktober, steken enkele burgers en officieren de koppen bij elkaar. Samen bedenken ze een gedurfd plan: de IJzervlakte onder water zetten."
+      }
+    ]
+}

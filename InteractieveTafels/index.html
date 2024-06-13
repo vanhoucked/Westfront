@@ -3,32 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Slideshow App</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-    <div id="language-selection" class="buttons">
-        <button onclick="selectLanguage('nl')">NEDERLANDS</button>
-        <button onclick="selectLanguage('fr')">FRANCAIS</button>
-        <button onclick="selectLanguage('de')">DEUTSCH</button>
-        <button onclick="selectLanguage('en')">ENGLISH</button>
+
+    <div id="borderContainer">
+        <div id="innerPage">
+            
+            <div id="titleStart">
+            </div>
+
+            <div id="slideshowContainer">
+                <div id="slideshow"></div>
+                <p id="vorigeKnop" style="font-family:Webdings;" onclick="vorigeSlide()">3</p>
+                <p id="volgendeKnop" style="font-family:Webdings;" onclick="volgendeSlide()">4</p>
+            </div>
+
+        </div>
     </div>
+
+    <div id="bottomMenu">
+
+        <div id="languageSelection">
+            <p class="languageSelection" id="selectLanguageNL" onclick="selectLanguage('nl')">Nederlands</p>
+            <p class="languageSelection" id="selectLanguageFR" onclick="selectLanguage('fr')">Français</p>
+            <p class="languageSelection" id="selectLanguageEN" onclick="selectLanguage('en')">English</p>
+            <p class="languageSelection" id="selectLanguageDE" onclick="selectLanguage('de')">Deutsch</p>
+        </div>
     
-    <div id="theme-selection" class="buttons" style="display: none;">
-        <h2>Select Theme:</h2>
-        <button onclick="selectTheme('thema1')">Thema 1</button>
-        <button onclick="selectTheme('theme2')">Thema 2</button>
-        <button onclick="selectTheme('thema3')">Thema 3</button>
-        <button onclick="selectTheme('thema4')">Thema 4</button>
-    </div>
+        <img id="homeKnop" src="img/home.png" onclick="toHome()">
 
-    <div id="slideshow" style="display: none;">
-        <div id="slideshow-container"></div>
-        <button id="prev" onclick="showPrevSlide()">Vorige</button>
-        <button id="next" onclick="showNextSlide()">Volgende</button>
     </div>
-
-    <img id="homeKnop" src="img/home.png" onclick="toHome()">
 
     <script src="script.js"></script>
     

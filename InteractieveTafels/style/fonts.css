@@ -1,0 +1,14 @@
+@font-face {
+    font-family: FayonGrandePro;
+    src: url("../fonts/FayonGrandePro-Bold.otf");
+}
+
+@font-face {
+    font-family: Webdings;
+    src: url("../fonts/Webdings.ttf");
+}
+
+@font-face {
+    font-family: HelveticaNeue;
+    src: url("../fonts/HelveticaNeue.ttc");
+}
