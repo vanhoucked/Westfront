@@ -1,0 +1,124 @@
+@import url("fonts.css");
+
+/* --- KLEURENPALLET DEFINIEREN --- */
+
+:root {
+    --appelblauw-accent: #4b9baa;
+    --zacht-okergeel-accent: #f2cf66;
+    --groen-blauw-juul: #025159;
+    --donkerblauw-ellie: #003264;
+    --zalmroze-rosa: #e6a687;
+}
+
+body, html {
+    font-family: AvenirNextLT, MediumIt;
+    text-align: center;
+
+    background-color: var(--appelblauw-accent);
+    color: white;
+
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
+}
+
+h1, p {
+    margin: 40px 100px 40px 100px;
+    font-size: 70px;
+}
+
+/* --- STARTPAGINA -> TAALKEUZE --- */
+
+#language-selection {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#taalKnoppen {
+    flex: 0 0 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+#startUitleg {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+/* --- KNOPPEN VOOR TAALKEUZE EN VRAGEN --- */
+
+button {
+    margin: 50px;
+    padding: 10px 20px;
+    font-size: 16px;
+    width: 300px;
+    height: 150px;
+
+    background-color: var(--groen-blauw-juul);
+    color: var(--zalmroze-rosa);
+    text-transform: uppercase;
+    font-family: AvenirNextLT, MediumIt;
+    font-size: 30px;
+    border: none;
+    border-radius: 10px;
+}
+
+/* --- QUIZ --- */
+
+#quiz {
+    flex-wrap: wrap;
+    align-items: center;
+    height: 1080px;
+}
+
+#quiz > button {
+    flex: 1 0 20%;
+}
+
+#quiz > h1, h2 {
+    flex: 0 1 100%;
+}
+
+/* --- RESULTAAT WEERGAVE --- */
+
+#result {
+    width: 1920px;
+    height: 1080px;
+    display: flex;
+}
+
+#rightResult {
+    flex: 1;
+    align-self: center;
+}
+
+#rightResult > h1, h2 {
+    margin-bottom: 100px;
+}
+
+#silhouet {
+    max-width: 600px;
+}
+
+/* --- HOMEKNOP ONDERAAN LINKS --- */
+
+#homeKnop {
+    width: 100px;
+    height: auto;
+    transition: transform 0.3s ease;
+
+    position: absolute;
+    bottom: 20px !important;
+    left: 20px;
+}

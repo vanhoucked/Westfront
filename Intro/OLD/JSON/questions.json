@@ -1,0 +1,78 @@
+{
+    "nl": {
+        "welcome": "Geef een antwoord op deze vijf vragen en we stellen jou de ideale gids voor.",
+        "welcome2": "Deze gids neemt je op sleeptouw doorheen je bezoek aan Westfront",
+        "start": "Laten we starten",
+        "questions": [
+            "Hou oud voel jij je vandaag (dus niet hou oud ben je)?",
+            "Als jij een nieuw toestel koopt, lees je dan de handleiding?",
+            "In de krant lees jij het liefst:",
+            "Jouw favoriete filmgenre is:",
+            "Ik luister het liefst naar:"
+        ],
+        "answers": [
+            ["Tussen 15 en 45", "Ouder dan 45", "Jonger dan 15"],
+            ["Soms", "Altijd", "Nooit"],
+            ["De showbizzpagina en lifestyletips", "Binnenlands en buitenlands nieuws", "De cartoons en het weerbericht"],
+            ["Romantische komedie", "Thriller", "Disneyfilm"],
+            ["De verhalen van mijn/een moeder", "De verhalen van mijn/een grootvader", "De verhalen van mijn/een kleine zus"]
+        ]
+    },
+    "fr": {
+        "welcome": "Répondez à ces cinq questions et découvrez votre guide idéal.",
+        "welcome2": "Ce guide vous accompagnera tout au long de votre visite à Westfront",
+        "start": "Commençons",
+        "questions": [
+            "Hou oud voel jij je vandaag (dus niet hou oud ben je)?",
+            "Als jij een nieuw toestel koopt, lees je dan de handleiding?",
+            "In de krant lees jij het liefst:",
+            "Jouw favoriete filmgenre is:",
+            "Ik luister het liefst naar:"
+        ],
+        "answers": [
+            ["Tussen 15 en 45", "Ouder dan 45", "Jonger dan 15"],
+            ["Soms", "Altijd", "Nooit"],
+            ["De showbizzpagina en lifestyletips", "Binnenlands en buitenlands nieuws", "De cartoons en het weerbericht"],
+            ["Romantische komedie", "Thriller", "Disneyfilm"],
+            ["De verhalen van mijn/een moeder", "De verhalen van mijn/een grootvader", "De verhalen van mijn/een kleine zus"]
+        ]
+    },
+    "en": {
+        "welcome": "Geef een antwoord op deze vijf vragen en we stellen jou de ideale gids voor.",
+        "welcome2": "GDeze gids neemt je op sleeptouw doorheen je bezoek aan Westfront",
+        "start": "Let's start",
+        "questions": [
+            "Hou oud voel jij je vandaag (dus niet hou oud ben je)?",
+            "Als jij een nieuw toestel koopt, lees je dan de handleiding?",
+            "In de krant lees jij het liefst:",
+            "Jouw favoriete filmgenre is:",
+            "Ik luister het liefst naar:"
+        ],
+        "answers": [
+            ["Tussen 15 en 45", "Ouder dan 45", "Jonger dan 15"],
+            ["Soms", "Altijd", "Nooit"],
+            ["De showbizzpagina en lifestyletips", "Binnenlands en buitenlands nieuws", "De cartoons en het weerbericht"],
+            ["Romantische komedie", "Thriller", "Disneyfilm"],
+            ["De verhalen van mijn/een moeder", "De verhalen van mijn/een grootvader", "De verhalen van mijn/een kleine zus"]
+        ]
+    },
+    "de": {
+        "welcome": "Geef een antwoord op deze vijf vragen en we stellen jou de ideale gids voor.",
+        "welcome2": "Deze gids neemt je op sleeptouw doorheen je bezoek aan Westfront",
+        "start": "Lasst uns beginnen",
+        "questions": [
+            "Hou oud voel jij je vandaag (dus niet hou oud ben je)?",
+            "Als jij een nieuw toestel koopt, lees je dan de handleiding?",
+            "In de krant lees jij het liefst:",
+            "Jouw favoriete filmgenre is:",
+            "Ik luister het liefst naar:"
+        ],
+        "answers": [
+            ["Tussen 15 en 45", "Ouder dan 45", "Jonger dan 15"],
+            ["Soms", "Altijd", "Nooit"],
+            ["De showbizzpagina en lifestyletips", "Binnenlands en buitenlands nieuws", "De cartoons en het weerbericht"],
+            ["Romantische komedie", "Thriller", "Disneyfilm"],
+            ["De verhalen van mijn/een moeder", "De verhalen van mijn/een grootvader", "De verhalen van mijn/een kleine zus"]
+        ]
+    }
+}

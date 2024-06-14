@@ -1,0 +1,20 @@
+@import url("fonts.css");
+@import url("pageStyle.css");
+@import url("bottom.css");
+
+h1 {
+    font-family: FayonGrandePro;
+}
+
+#startDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+#startDiv > h1 {
+    font-size: 150px;
+}
+
+#startDiv > img {
+    width: 1000px;
+}

@@ -1,82 +1,106 @@
 {
     "nl": {
         "A": {
-            "text": "Jouw perfecte gids is Ellie!",
+            "text": "Dé gids voor jou is:",
+            "name": "Ellie",
             "description": "Ellie komt uit Brussel en werkt de hele oorlog als verpleegster. In de Océan. Veel luisterplezier!",
             "task": "Scan het bordje van Ellie, naast dit scherm, en volg haar verhaal tijdens je bezoek aan Westfront",
-            "gif": "img/Ellie.gif"
+            "gif": "img/Ellie.gif",
+            "kleur": "#003264"
         },
         "B": {
-            "text": "Jouw meest geschikte gids is Juul!",
+            "text": "Dé gids voor jou is:",
+            "name": "Juul",
             "description": "Juul is geboren en getogen in Nieuwpoort en journalist. Benieuwd naar z'n verhaal?",
             "task": "Scan het bordje van Juul, naast dit scherm, en volg haar verhaal tijdens je bezoek aan Westfront",
-            "gif": "img/Juul.gif"
+            "gif": "img/Juul.gif",
+            "kleur": "#025159"
         },
         "C": {
-            "text": "Dé gids voor jou is Rosa!",
+            "text": "Dé gids voor jou is:",
+            "name": "Rosa",
             "description": "Rosa is 12 jaar als de oorlog begint en vindt het oneerlijk dat meisjes niet mogen gaan vechten. Kom alles voer Rosa te weten tijdens je bezoek.",
             "task": "Scan het bordje van Rosa, naast dit scherm, en volg haar verhaal tijdens je bezoek aan Westfront",
-            "gif": "img/Rosa.gif"
+            "gif": "img/Rosa.gif",
+            "kleur": "#e6a687"
         }
     },
     "fr": {
         "A": {
-            "text": "Jouw perfecte gids is Ellie!",
-            "description": "Ellie komt uit Brussel en werkt de hele oorlog als verpleegster. In de Océan. Veel luisterplezier!",
-            "task": "Scan het bordje van Ellie, naast dit scherm, en volg haar verhaal tijdens je bezoek aan Westfront",
-            "gif": "img/Ellie.gif"
+            "text": "FR - Dé gids voor jou is:",
+            "name": "Ellie",
+            "description": "FR - Ellie komt uit Brussel en werkt de hele oorlog als verpleegster. In de Océan. Veel luisterplezier!",
+            "task": "FR - Scan het bordje van Ellie, naast dit scherm, en volg haar verhaal tijdens je bezoek aan Westfront",
+            "gif": "img/Ellie.gif",
+            "kleur": "#003264"
         },
         "B": {
-            "text": "Jouw meest geschikte gids is Juul!",
-            "description": "Juul is geboren en getogen in Nieuwpoort en journalist. Benieuwd naar z'n verhaal?",
-            "task": "Scan het bordje van Juul, naast dit scherm, en volg haar verhaal tijdens je bezoek aan Westfront",
-            "gif": "img/Juul.gif"
+            "text": "FR - Dé gids voor jou is:",
+            "name": "Juul",
+            "description": "FR - Juul is geboren en getogen in Nieuwpoort en journalist. Benieuwd naar z'n verhaal?",
+            "task": "FR - Scan het bordje van Juul, naast dit scherm, en volg haar verhaal tijdens je bezoek aan Westfront",
+            "gif": "img/Juul.gif",
+            "kleur": "#025159"
         },
         "C": {
-            "text": "Dé gids voor jou is Rosa!",
-            "description": "Rosa is 12 jaar als de oorlog begint en vindt het oneerlijk dat meisjes niet mogen gaan vechten. Kom alles voer Rosa te weten tijdens je bezoek.",
-            "task": "Scan het bordje van Rosa, naast dit scherm, en volg haar verhaal tijdens je bezoek aan Westfront",
-            "gif": "img/Rosa.gif"
+            "text": "FR - Dé gids voor jou is:",
+            "name": "Rosa",
+            "description": "FR - Rosa is 12 jaar als de oorlog begint en vindt het oneerlijk dat meisjes niet mogen gaan vechten. Kom alles voer Rosa te weten tijdens je bezoek.",
+            "task": "FR - Scan het bordje van Rosa, naast dit scherm, en volg haar verhaal tijdens je bezoek aan Westfront",
+            "gif": "img/Rosa.gif",
+            "kleur": "#e6a687"
         }
     },
     "en": {
         "A": {
-            "text": "Jouw perfecte gids is Ellie!",
-            "description": "Ellie komt uit Brussel en werkt de hele oorlog als verpleegster. In de Océan. Veel luisterplezier!",
-            "task": "Scan het bordje van Ellie, naast dit scherm, en volg haar verhaal tijdens je bezoek aan Westfront",
-            "gif": "img/Ellie.gif"
+            "text": "EN - Dé gids voor jou is:",
+            "name": "Ellie",
+            "description": "EN - Ellie komt uit Brussel en werkt de hele oorlog als verpleegster. In de Océan. Veel luisterplezier!",
+            "task": "EN - Scan het bordje van Ellie, naast dit scherm, en volg haar verhaal tijdens je bezoek aan Westfront",
+            "gif": "img/Ellie.gif",
+            "kleur": "#003264"
         },
         "B": {
-            "text": "Jouw meest geschikte gids is Juul!",
-            "description": "Juul is geboren en getogen in Nieuwpoort en journalist. Benieuwd naar z'n verhaal?",
-            "task": "Scan het bordje van Juul, naast dit scherm, en volg haar verhaal tijdens je bezoek aan Westfront",
-            "gif": "img/Juul.gif"
+            "text": "EN - Dé gids voor jou is:",
+            "name": "Juul",
+            "description": "EN - Juul is geboren en getogen in Nieuwpoort en journalist. Benieuwd naar z'n verhaal?",
+            "task": "EN - Scan het bordje van Juul, naast dit scherm, en volg haar verhaal tijdens je bezoek aan Westfront",
+            "gif": "img/Juul.gif",
+            "kleur": "#025159"
         },
         "C": {
-            "text": "Dé gids voor jou is Rosa!",
-            "description": "Rosa is 12 jaar als de oorlog begint en vindt het oneerlijk dat meisjes niet mogen gaan vechten. Kom alles voer Rosa te weten tijdens je bezoek.",
-            "task": "Scan het bordje van Rosa, naast dit scherm, en volg haar verhaal tijdens je bezoek aan Westfront",
-            "gif": "img/Rosa.gif"
+            "text": "EN - Dé gids voor jou is:",
+            "name": "Rosa",
+            "description": "EN - Rosa is 12 jaar als de oorlog begint en vindt het oneerlijk dat meisjes niet mogen gaan vechten. Kom alles voer Rosa te weten tijdens je bezoek.",
+            "task": "EN - Scan het bordje van Rosa, naast dit scherm, en volg haar verhaal tijdens je bezoek aan Westfront",
+            "gif": "img/Rosa.gif",
+            "kleur": "#e6a687"
         }
     },
     "de": {
         "A": {
-            "text": "Jouw perfecte gids is Ellie!",
-            "description": "Ellie komt uit Brussel en werkt de hele oorlog als verpleegster. In de Océan. Veel luisterplezier!",
-            "task": "Scan het bordje van Ellie, naast dit scherm, en volg haar verhaal tijdens je bezoek aan Westfront",
-            "gif": "img/Ellie.gif"
+            "text": "DE - Dé gids voor jou is:",
+            "name": "Ellie",
+            "description": "DE - Ellie komt uit Brussel en werkt de hele oorlog als verpleegster. In de Océan. Veel luisterplezier!",
+            "task": "DE - Scan het bordje van Ellie, naast dit scherm, en volg haar verhaal tijdens je bezoek aan Westfront",
+            "gif": "img/Ellie.gif",
+            "kleur": "#003264"
         },
         "B": {
-            "text": "Jouw meest geschikte gids is Juul!",
-            "description": "Juul is geboren en getogen in Nieuwpoort en journalist. Benieuwd naar z'n verhaal?",
-            "task": "Scan het bordje van Juul, naast dit scherm, en volg haar verhaal tijdens je bezoek aan Westfront",
-            "gif": "img/Juul.gif"
+            "text": "DE - Dé gids voor jou is:",
+            "name": "Juul",
+            "description": "DE - Juul is geboren en getogen in Nieuwpoort en journalist. Benieuwd naar z'n verhaal?",
+            "task": "DE - Scan het bordje van Juul, naast dit scherm, en volg haar verhaal tijdens je bezoek aan Westfront",
+            "gif": "img/Juul.gif",
+            "kleur": "#025159"
         },
         "C": {
-            "text": "Dé gids voor jou is Rosa!",
-            "description": "Rosa is 12 jaar als de oorlog begint en vindt het oneerlijk dat meisjes niet mogen gaan vechten. Kom alles voer Rosa te weten tijdens je bezoek.",
-            "task": "Scan het bordje van Rosa, naast dit scherm, en volg haar verhaal tijdens je bezoek aan Westfront",
-            "gif": "img/Rosa.gif"
+            "text": "DE - Dé gids voor jou is:",
+            "name": "Rosa",
+            "description": "DE - Rosa is 12 jaar als de oorlog begint en vindt het oneerlijk dat meisjes niet mogen gaan vechten. Kom alles voer Rosa te weten tijdens je bezoek.",
+            "task": "DE - Scan het bordje van Rosa, naast dit scherm, en volg haar verhaal tijdens je bezoek aan Westfront",
+            "gif": "img/Rosa.gif",
+            "kleur": "#e6a687"
         }
     }
 }

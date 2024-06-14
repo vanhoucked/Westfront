@@ -3,39 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Taal Quiz</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-    <div id="language-selection">
-        <div id="taalKnoppen">
-            <button id="nl" onclick="selectLanguage('nl')">NL</button>
-            <button id="fr" onclick="selectLanguage('fr')">FR</button>
-            <button id="en" onclick="selectLanguage('en')">EN</button>
-            <button id="de" onclick="selectLanguage('de')">DE</button>
+
+    <div id="borderContainer">
+        <div id="innerPage">
+            
+            <div id="startDiv">
+                <h1 id="titel"></h1>
+                <button id="startKnop" onclick="showQuestions()"></button>
+                <img src="img/profiel.png">
+                <h2 id="answerTask"></h2>
+                <h2 id="guideTask"></h2>
+            </div>
+
+            <div id="questionsDiv">
+                <h1 id="question"></h1>
+                <div id="answers">
+                    <div id="answerADiv" onclick="submitAnswer('A')">
+                        <b>A</b>
+                        <p id="answerA"></p>
+                    </div>
+                    <div id="answerBDiv" onclick="submitAnswer('B')">
+                        <b>B</b>
+                        <p id="answerB"></p>
+                    </div>
+                    <div id="answerCDiv" onclick="submitAnswer('C')">
+                        <b>C</b>
+                        <p id="answerC"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="answerDiv">
+                <h1 id="text"></h1>
+                <h1 id="name"></h1>
+                <h2 id="description"></h2>
+                <p id="task"></p>
+                <img id="silhouet">
+            </div>
+
         </div>
-        <div id="startUitleg">
-            <p id="welcome-text"></p>
-            <p id="welcome-text2"></p>
-            <button id="start-button" onclick="startQuiz()" style="display:none;">Start</button>
-        </div>
-    </div>
-    
-    <div id="quiz">
-        <h1 id="question-text"></h1>
-        <button onclick="submitAnswer('A')" id="answerA"></button>
-        <button onclick="submitAnswer('B')" id="answerB"></button>
-        <button onclick="submitAnswer('C')" id="answerC"></button>
-        <h2 id="progress"></h2>
-    </div>
-    
-    <div id="result">
-        <div id="leftResult"></div>
-        <div id="rightResult"></div>
     </div>
 
-    <img id="homeKnop" src="img/home.png" onclick="toHome()">
+    <div id="bottomMenu">
+
+        <div id="languageSelection">
+            <p class="languageSelection" id="selectLanguageNL" onclick="selectLanguage('nl')">Nederlands</p>
+            <p class="languageSelection" id="selectLanguageFR" onclick="selectLanguage('fr')">Français</p>
+            <p class="languageSelection" id="selectLanguageEN" onclick="selectLanguage('en')">English</p>
+            <p class="languageSelection" id="selectLanguageDE" onclick="selectLanguage('de')">Deutsch</p>
+        </div>
+    
+        <img id="homeKnop" src="img/home.png" onclick="toHome()">
+
+    </div>
 
     <script src="script.js"></script>
+    
 </body>
 </html>
