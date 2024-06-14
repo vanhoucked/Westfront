@@ -1,12 +1,11 @@
 {
     "nl": {
         "titel": "Kies je gids",
-        "welcome": "Geef een antwoord op deze vijf vragen en we stellen jou de ideale gids voor.",
-        "welcome2": "Deze gids neemt je op sleeptouw doorheen je bezoek aan Westfront",
+        "welcome": "Geef een antwoord op deze vijf vragen en we stellen jou de ideale gids voor. \nDeze gids neemt je op sleeptouw doorheen je bezoek aan Westfront",
         "start": "Laten we starten",
         "questions": [
-            "Hou oud voel jij je vandaag (dus niet hou oud ben je)?",
-            "Als jij een nieuw toestel koopt, lees je dan de handleiding?",
+            "Hou oud voel jij je vandaag \n(dus niet hou oud ben je)?",
+            "Als jij een nieuw toestel koopt, \nlees je dan de handleiding?",
             "In de krant lees jij het liefst:",
             "Jouw favoriete filmgenre is:",
             "Ik luister het liefst naar:"
@@ -21,12 +20,11 @@
     },
     "fr": {
         "titel": "Kies je gids",
-        "welcome": "Répondez à ces cinq questions et découvrez votre guide idéal.",
-        "welcome2": "Ce guide vous accompagnera tout au long de votre visite à Westfront",
+        "welcome": "Répondez à ces cinq questions et découvrez votre guide idéal. \nCe guide vous accompagnera tout au long de votre visite à Westfront",
         "start": "Commençons",
         "questions": [
-            "FR - Hou oud voel jij je vandaag (dus niet hou oud ben je)?",
-            "FR - Als jij een nieuw toestel koopt, lees je dan de handleiding?",
+            "FR - Hou oud voel jij je vandaag \n(dus niet hou oud ben je)?",
+            "FR - Als jij een nieuw toestel koopt, \nlees je dan de handleiding?",
             "FR - In de krant lees jij het liefst:",
             "FR - Jouw favoriete filmgenre is:",
             "FR - Ik luister het liefst naar:"
@@ -41,12 +39,11 @@
     },
     "en": {
         "titel": "Kies je gids",
-        "welcome": "Geef een antwoord op deze vijf vragen en we stellen jou de ideale gids voor.",
-        "welcome2": "GDeze gids neemt je op sleeptouw doorheen je bezoek aan Westfront",
+        "welcome": "Geef een antwoord op deze vijf vragen en we stellen jou de ideale gids voor. \nDeze gids neemt je op sleeptouw doorheen je bezoek aan Westfront",
         "start": "Let's start",
         "questions": [
-            "EN - Hou oud voel jij je vandaag (dus niet hou oud ben je)?",
-            "EN - Als jij een nieuw toestel koopt, lees je dan de handleiding?",
+            "EN - Hou oud voel jij je vandaag \n(dus niet hou oud ben je)?",
+            "EN - Als jij een nieuw toestel koopt, \nlees je dan de handleiding?",
             "EN - In de krant lees jij het liefst:",
             "EN - Jouw favoriete filmgenre is:",
             "EN - Ik luister het liefst naar:"
@@ -61,12 +58,11 @@
     },
     "de": {
         "titel": "Kies je gids",
-        "welcome": "Geef een antwoord op deze vijf vragen en we stellen jou de ideale gids voor.",
-        "welcome2": "Deze gids neemt je op sleeptouw doorheen je bezoek aan Westfront",
+        "welcome": "Geef een antwoord op deze vijf vragen en we stellen jou de ideale gids voor. \nDeze gids neemt je op sleeptouw doorheen je bezoek aan Westfront",
         "start": "Lasst uns beginnen",
         "questions": [
-            "DE - Hou oud voel jij je vandaag (dus niet hou oud ben je)?",
-            "DE - Als jij een nieuw toestel koopt, lees je dan de handleiding?",
+            "DE - Hou oud voel jij je vandaag \n(dus niet hou oud ben je)?",
+            "DE - Als jij een nieuw toestel koopt, \nlees je dan de handleiding?",
             "DE - In de krant lees jij het liefst:",
             "DE - Jouw favoriete filmgenre is:",
             "DE - Ik luister het liefst naar:"

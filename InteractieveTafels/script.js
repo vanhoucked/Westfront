@@ -6,6 +6,11 @@ let lastChosenThema;
 const titleStartDiv = document.getElementById('titleStart');
 const slideshowContainerDiv = document.getElementById('slideshowContainer');
 
+function resetTimer() {
+    clearTimeout(inactiviteitTimer);
+    inactiviteitTimer = setTimeout(toHome, 45000); // 0,75 minuten x 60 000 = 30000 milliseconden
+}
+
 function selectLanguage(language) {
     selectedLanguage = language;
 
@@ -149,4 +154,7 @@ function changeBackground(color) {
 
 document.addEventListener('DOMContentLoaded', () => {
     toHome();
+
+    resetTimer();
+    document.addEventListener('click', resetTimer);
 });

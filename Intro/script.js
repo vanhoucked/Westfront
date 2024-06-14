@@ -3,9 +3,16 @@ let selectedLanguage = 'nl';
 let currentQuestionIndex = 0;
 let userAnswers = [];
 
+let inactiviteitTimer;
+
 const startDiv = document.getElementById('startDiv');
 const questionsDiv = document.getElementById('questionsDiv');
 const answerDiv = document.getElementById('answerDiv');
+
+function resetTimer() {
+    clearTimeout(inactiviteitTimer);
+    inactiviteitTimer = setTimeout(toHome, 30000); // 0,75 minuten x 60 000 = 45000 milliseconden
+}
 
 function selectLanguage(language) {
     selectedLanguage = language;
@@ -30,14 +37,15 @@ async function showStart() {
     questionsDiv.style.display = 'none';
     answerDiv.style.display = 'none';
 
+    changeBackground('rgb(191,198,190)', 'rgb(150,170,159)', 'white');
+
     fetch(`json/questions.json`)
     .then(response => response.json())
     .then(data => {
 
         document.getElementById('titel').innerText = data[selectedLanguage].titel.toUpperCase();
         document.getElementById('startKnop').innerText = data[selectedLanguage].start.toUpperCase();
-        document.getElementById('answerTask').innerText = data[selectedLanguage].welcome;
-        document.getElementById('guideTask').innerText = data[selectedLanguage].welcome2;
+        document.getElementById('guideTask').innerText = data[selectedLanguage].welcome;
 
     });
 }
@@ -47,6 +55,8 @@ async function showQuestions() {
     startDiv.style.display = 'none';
     questionsDiv.style.display = 'flex';
     answerDiv.style.display = 'none';
+
+    changeBackground('white', 'white', 'white');
 
     fetch(`json/questions.json`)
     .then(response => response.json())
@@ -96,9 +106,10 @@ async function showResult() {
     .then(response => response.json())
     .then(results => {
 
-        const naamGids = results[selectedLanguage][mostFrequentLetter].name;
+        characterColor = results[selectedLanguage][mostFrequentLetter].kleur
+        changeBackground('rgb(191,198,190)', `${characterColor}`, `${characterColor}`);
 
-        changeBackground(results[selectedLanguage][mostFrequentLetter].kleur)
+        const naamGids = results[selectedLanguage][mostFrequentLetter].name;
 
         document.getElementById('text').innerText = results[selectedLanguage][mostFrequentLetter].text;
         document.getElementById('name').innerText = naamGids;
@@ -110,8 +121,10 @@ async function showResult() {
     });
 }
 
-function changeBackground(backgroundColor) {
-    document.getElementById('innerPage').style.backgroundColor = backgroundColor;
+function changeBackground(bodyColor, borderColor, containerColor) {
+    document.body.style.backgroundColor = bodyColor;
+    document.getElementById('borderContainer').style.borderColor = borderColor;
+    document.getElementById('innerPage').style.backgroundColor = containerColor;
 }
 
 function toHome() {
@@ -119,10 +132,12 @@ function toHome() {
     userAnswers = [];
 
     showStart();
-    changeBackground("white");
     document.getElementById(`selectLanguage${selectedLanguage.toUpperCase()}`).style.textDecoration = "underline";
 }
 
 document.addEventListener('DOMContentLoaded', () => {
     toHome();
+
+    resetTimer();
+    document.addEventListener('click', resetTimer);
 });

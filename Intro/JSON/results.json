@@ -3,7 +3,7 @@
         "A": {
             "text": "Dé gids voor jou is:",
             "name": "Ellie",
-            "description": "Ellie komt uit Brussel en werkt de hele oorlog als verpleegster. In de Océan. Veel luisterplezier!",
+            "description": "Ellie komt uit Brussel en werkt de hele oorlog \nals verpleegster. In de Océan. Veel luisterplezier!",
             "task": "Scan het bordje van Ellie, naast dit scherm, en volg haar verhaal tijdens je bezoek aan Westfront",
             "gif": "img/Ellie.gif",
             "kleur": "#003264"
