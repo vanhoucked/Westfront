@@ -2,6 +2,7 @@ let selectedLanguage = 'nl';
 
 let currentQuestionIndex = 0;
 let userAnswers = [];
+let mostFrequentLetter;
 
 let inactiviteitTimer;
 
@@ -11,7 +12,7 @@ const answerDiv = document.getElementById('answerDiv');
 
 function resetTimer() {
     clearTimeout(inactiviteitTimer);
-    inactiviteitTimer = setTimeout(toHome, 30000); // 0,75 minuten x 60 000 = 45000 milliseconden
+    inactiviteitTimer = setTimeout(timerVerlopen, 30000); // 0,75 minuten x 60 000 = 45000 milliseconden
 }
 
 function selectLanguage(language) {
@@ -69,6 +70,7 @@ async function showQuestions() {
             document.getElementById('answerB').innerText = data[selectedLanguage].answers[currentQuestionIndex][1];
             document.getElementById('answerC').innerText = data[selectedLanguage].answers[currentQuestionIndex][2];
         } else {
+            mostFrequentLetter = getMostFrequentLetter(userAnswers);
             showResult();
         }
 
@@ -100,8 +102,6 @@ async function showResult() {
     questionsDiv.style.display = 'none';
     answerDiv.style.display = 'flex';
 
-    const mostFrequentLetter = getMostFrequentLetter(userAnswers);
-
     fetch(`json/results.json`)
     .then(response => response.json())
     .then(results => {
@@ -125,6 +125,15 @@ function changeBackground(bodyColor, borderColor, containerColor) {
     document.body.style.backgroundColor = bodyColor;
     document.getElementById('borderContainer').style.borderColor = borderColor;
     document.getElementById('innerPage').style.backgroundColor = containerColor;
+}
+
+function timerVerlopen() {
+    document.querySelectorAll('.languageSelection').forEach(element => {
+        element.style.textDecoration = 'none';
+    });
+    
+    selectedLanguage = 'nl';
+    toHome();
 }
 
 function toHome() {

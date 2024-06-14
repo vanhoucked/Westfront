@@ -9,6 +9,13 @@ h1, h2, h3 {
 #titleStart {
     text-align: center;
     font-size: 65px;
+    height: 100%;
+}
+
+#titleStart > p {
+    font-size: 35px;
+    margin: 20px 0 0 0;
+    font-family: HelveticaNeue;
 }
 
 #slideshowContainer > p {

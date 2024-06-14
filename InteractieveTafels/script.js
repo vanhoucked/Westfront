@@ -6,9 +6,11 @@ let lastChosenThema;
 const titleStartDiv = document.getElementById('titleStart');
 const slideshowContainerDiv = document.getElementById('slideshowContainer');
 
+let inactiviteitTimer;
+
 function resetTimer() {
     clearTimeout(inactiviteitTimer);
-    inactiviteitTimer = setTimeout(toHome, 45000); // 0,75 minuten x 60 000 = 30000 milliseconden
+    inactiviteitTimer = setTimeout(timerVerlopen, 45000); // 0,75 minuten x 60 000 = 30000 milliseconden
 }
 
 function selectLanguage(language) {
@@ -29,6 +31,10 @@ function selectLanguage(language) {
 async function showTitle() {
     changeBackground("primaryColor");
 
+    titleStartDiv.innerHTML = "";
+    slideshowContainerDiv.style.display = 'none';
+    titleStartDiv.style.display = 'grid';
+
     try {
         const titleResponse = await fetch(`json/${selectedLanguage}.json`);
         if (!titleResponse.ok) {
@@ -36,9 +42,11 @@ async function showTitle() {
         }
         const jsonData = await titleResponse.json();
 
-        titleStartDiv.innerHTML = "";
-        slideshowContainerDiv.style.display = 'none';
-        titleStartDiv.style.display = 'grid';
+        if (jsonData.titels.length == 1) {
+            titleStartDiv.innerHTML = `<p>${jsonData.startEnkel.toUpperCase()}</p>`;
+        } else {
+            titleStartDiv.innerHTML = `<p>${jsonData.startMore.toUpperCase()}</p>`;
+        }
 
         jsonData.titels.forEach(item => {
             const h1Element = document.createElement('h1');
@@ -147,9 +155,19 @@ function changeBackground(color) {
         innerPageDiv.style.backgroundColor = "var(--primaryColor)";
 
     } else if (color == "secondaryColor") {
-        borderContainerDiv.style.borderColor = "var(--secondaryColor)";
-        innerPageDiv.style.backgroundColor = "var(--secondaryColor)";
+        borderContainerDiv.style.borderColor = "white";
+        innerPageDiv.style.backgroundColor = "white";
+        document.body.style.backgroundColor = "white";
     }
+}
+
+function timerVerlopen() {
+    document.querySelectorAll('.languageSelection').forEach(element => {
+        element.style.textDecoration = 'none';
+    });
+    
+    selectedLanguage = 'nl';
+    toHome();
 }
 
 document.addEventListener('DOMContentLoaded', () => {
