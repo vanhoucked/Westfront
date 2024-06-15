@@ -17,10 +17,11 @@ h1 {
     margin: 0;
 }
 
-#startDiv > h2 {
+#startDiv > p {
     font-size: 30px;
     color: var(--primaryColor);
     margin: 0;
+    font-family: HelveticaNeue;
 }
 
 #startDiv > * {
@@ -37,6 +38,7 @@ h1 {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 
     font-size: 20px;
+    font-family: HelveticaNeue;
 
     margin-top: 50px;
 }
@@ -58,19 +60,19 @@ h1 {
 #answers {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: flex-start;
     width: 1000px;
+
+    font-family: HelveticaNeue;
 }
 
 #answers > * > b {
-    font-size: 25px;
+    font-size: 40px;
     color: var(--primaryColor)
 }
 
 #answers > * {
-    border: 1px solid var(--primaryColor);
-    border-radius: 6px;
     padding: 20px;
 
     width: 230px;
@@ -82,8 +84,12 @@ h1 {
     align-items: center;
 }
 
+#answers > *:nth-child(-n + 2) {
+    border-right: 2px solid var(--primaryColor);
+}
+
 #answers p {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 #answerDiv {

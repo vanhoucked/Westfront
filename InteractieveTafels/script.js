@@ -42,6 +42,8 @@ async function showTitle() {
         }
         const jsonData = await titleResponse.json();
 
+        console.log(jsonData.startMore);
+
         if (jsonData.titels.length == 1) {
             titleStartDiv.innerHTML = `<p>${jsonData.startEnkel.toUpperCase()}</p>`;
         } else {

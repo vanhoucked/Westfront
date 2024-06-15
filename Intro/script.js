@@ -12,7 +12,7 @@ const answerDiv = document.getElementById('answerDiv');
 
 function resetTimer() {
     clearTimeout(inactiviteitTimer);
-    inactiviteitTimer = setTimeout(timerVerlopen, 30000); // 0,75 minuten x 60 000 = 45000 milliseconden
+    inactiviteitTimer = setTimeout(timerVerlopen, 45000); // 0,75 minuten x 60 000 = 45000 milliseconden
 }
 
 function selectLanguage(language) {

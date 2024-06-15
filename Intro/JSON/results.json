@@ -3,7 +3,7 @@
         "A": {
             "text": "Dé gids voor jou is:",
             "name": "Ellie",
-            "description": "Ellie komt uit Brussel en werkt de hele oorlog als verpleegster. \nIn de Océan. Veel luisterplezier!",
+            "description": "Ellie komt uit Brussel en werkt de hele oorlog als verpleegster in de Oceén. \nVeel luisterplezier!",
             "task": "Scan het bordje van Ellie, naast dit scherm, en volg haar verhaal tijdens je bezoek aan Westfront",
             "gif": "img/Ellie.gif",
             "kleur": "#003264"
@@ -19,7 +19,7 @@
         "C": {
             "text": "Dé gids voor jou is:",
             "name": "Rosa",
-            "description": "Rosa is 12 jaar als de oorlog begint en \nvindt het oneerlijk dat meisjes niet mogen gaan vechten. \nKom alles voer Rosa te weten tijdens je bezoek.",
+            "description": "Rosa is 12 jaar als de oorlog begint. \nZe vindt het oneerlijk dat meisjes niet mogen gaan vechten. \nKom alles over Rosa te weten tijdens je bezoek.",
             "task": "Scan het bordje van Rosa, naast dit scherm, en volg haar verhaal tijdens je bezoek aan Westfront",
             "gif": "img/Rosa.gif",
             "kleur": "#e6a687"
@@ -29,7 +29,7 @@
         "A": {
             "text": "FR - Dé gids voor jou is:",
             "name": "Ellie",
-            "description": "FR - Ellie komt uit Brussel en werkt de hele oorlog als verpleegster. \nIn de Océan. Veel luisterplezier!",
+            "description": "FR - Ellie komt uit Brussel en werkt de hele oorlog als verpleegster in de Oceén. \nVeel luisterplezier!",
             "task": "FR - Scan het bordje van Ellie, naast dit scherm, en volg haar verhaal tijdens je bezoek aan Westfront",
             "gif": "img/Ellie.gif",
             "kleur": "#003264"
@@ -45,7 +45,7 @@
         "C": {
             "text": "FR - Dé gids voor jou is:",
             "name": "Rosa",
-            "description": "FR - Rosa is 12 jaar als de oorlog begint en \nvindt het oneerlijk dat meisjes niet mogen gaan vechten. \nKom alles voer Rosa te weten tijdens je bezoek.",
+            "description": "FR - Rosa is 12 jaar als de oorlog begint. \nZe vindt het oneerlijk dat meisjes niet mogen gaan vechten. \nKom alles over Rosa te weten tijdens je bezoek.",
             "task": "FR - Scan het bordje van Rosa, naast dit scherm, en volg haar verhaal tijdens je bezoek aan Westfront",
             "gif": "img/Rosa.gif",
             "kleur": "#e6a687"
@@ -55,7 +55,7 @@
         "A": {
             "text": "EN - Dé gids voor jou is:",
             "name": "Ellie",
-            "description": "EN - Ellie komt uit Brussel en werkt de hele oorlog als verpleegster. \nIn de Océan. Veel luisterplezier!",
+            "description": "EN - Ellie komt uit Brussel en werkt de hele oorlog als verpleegster in de Oceén. \nVeel luisterplezier!",
             "task": "EN - Scan het bordje van Ellie, naast dit scherm, en volg haar verhaal tijdens je bezoek aan Westfront",
             "gif": "img/Ellie.gif",
             "kleur": "#003264"
@@ -71,7 +71,7 @@
         "C": {
             "text": "EN - Dé gids voor jou is:",
             "name": "Rosa",
-            "description": "EN - Rosa is 12 jaar als de oorlog begint en \nvindt het oneerlijk dat meisjes niet mogen gaan vechten. \nKom alles voer Rosa te weten tijdens je bezoek.",
+            "description": "EN - Rosa is 12 jaar als de oorlog begint. \nZe vindt het oneerlijk dat meisjes niet mogen gaan vechten. \nKom alles over Rosa te weten tijdens je bezoek.",
             "task": "EN - Scan het bordje van Rosa, naast dit scherm, en volg haar verhaal tijdens je bezoek aan Westfront",
             "gif": "img/Rosa.gif",
             "kleur": "#e6a687"
@@ -81,7 +81,7 @@
         "A": {
             "text": "DE - Dé gids voor jou is:",
             "name": "Ellie",
-            "description": "DE - Ellie komt uit Brussel en werkt de hele oorlog als verpleegster. \nIn de Océan. Veel luisterplezier!",
+            "description": "DE - Ellie komt uit Brussel en werkt de hele oorlog als verpleegster in de Oceén. \nVeel luisterplezier!",
             "task": "DE - Scan het bordje van Ellie, naast dit scherm, en volg haar verhaal tijdens je bezoek aan Westfront",
             "gif": "img/Ellie.gif",
             "kleur": "#003264"
@@ -97,7 +97,7 @@
         "C": {
             "text": "DE - Dé gids voor jou is:",
             "name": "Rosa",
-            "description": "DE - Rosa is 12 jaar als de oorlog begint en \nvindt het oneerlijk dat meisjes niet mogen gaan vechten. \nKom alles voer Rosa te weten tijdens je bezoek.",
+            "description": "DE - Rosa is 12 jaar als de oorlog begint. \nZe vindt het oneerlijk dat meisjes niet mogen gaan vechten. \nKom alles over Rosa te weten tijdens je bezoek.",
             "task": "DE - Scan het bordje van Rosa, naast dit scherm, en volg haar verhaal tijdens je bezoek aan Westfront",
             "gif": "img/Rosa.gif",
             "kleur": "#e6a687"
