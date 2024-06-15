@@ -33,7 +33,7 @@ async function showTitle() {
 
     titleStartDiv.innerHTML = "";
     slideshowContainerDiv.style.display = 'none';
-    titleStartDiv.style.display = 'grid';
+    titleStartDiv.style.display = 'flex';
 
     try {
         const titleResponse = await fetch(`json/${selectedLanguage}.json`);
