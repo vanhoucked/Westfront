@@ -3,16 +3,16 @@
         "A": {
             "text": "Dé gids voor jou is:",
             "name": "Ellie",
-            "description": "Ellie komt uit Brussel en werkt de hele oorlog als verpleegster in de Oceén. \nVeel luisterplezier!",
-            "task": "Scan het bordje van Ellie, naast dit scherm, en volg haar verhaal tijdens je bezoek aan Westfront",
+            "description": "Ellie komt uit Brussel en werkt de hele oorlog als verpleegster in de Océan. \nVeel luisterplezier!",
+            "task": "Scan het bordje van Ellie op de wand naast dit scherm, \nen volg haar verhaal tijdens je bezoek aan Westfront.",
             "gif": "img/Ellie.gif",
             "kleur": "#003264"
         },
         "B": {
             "text": "Dé gids voor jou is:",
             "name": "Juul",
-            "description": "Juul is geboren en getogen in Nieuwpoort en journalist. \nBenieuwd naar z'n verhaal?",
-            "task": "Scan het bordje van Juul, naast dit scherm, en volg haar verhaal tijdens je bezoek aan Westfront",
+            "description": "Juul is geboren en getogen in Nieuwpoort en journalist. \nBenieuwd naar zijn verhaal?",
+            "task": "Scan het bordje van Juul op de wand naast dit scherm, \nen volg zijn verhaal tijdens je bezoek aan Westfront.",
             "gif": "img/Juul.gif",
             "kleur": "#025159"
         },
@@ -20,7 +20,7 @@
             "text": "Dé gids voor jou is:",
             "name": "Rosa",
             "description": "Rosa is 12 jaar als de oorlog begint. \nZe vindt het oneerlijk dat meisjes niet mogen gaan vechten. \nKom alles over Rosa te weten tijdens je bezoek.",
-            "task": "Scan het bordje van Rosa, naast dit scherm, en volg haar verhaal tijdens je bezoek aan Westfront",
+            "task": "Scan het bordje van Rosa op de wand naast dit scherm, \nen volg haar verhaal tijdens je bezoek aan Westfront.",
             "gif": "img/Rosa.gif",
             "kleur": "#e6a687"
         }
@@ -29,7 +29,7 @@
         "A": {
             "text": "FR - Dé gids voor jou is:",
             "name": "Ellie",
-            "description": "FR - Ellie komt uit Brussel en werkt de hele oorlog als verpleegster in de Oceén. \nVeel luisterplezier!",
+            "description": "FR - Ellie komt uit Brussel en werkt de hele oorlog als verpleegster in de Océan. \nVeel luisterplezier!",
             "task": "FR - Scan het bordje van Ellie, naast dit scherm, en volg haar verhaal tijdens je bezoek aan Westfront",
             "gif": "img/Ellie.gif",
             "kleur": "#003264"
@@ -37,7 +37,7 @@
         "B": {
             "text": "FR - Dé gids voor jou is:",
             "name": "Juul",
-            "description": "FR - Juul is geboren en getogen in Nieuwpoort en journalist. \nBenieuwd naar z'n verhaal?",
+            "description": "FR - Juul is geboren en getogen in Nieuwpoort en journalist. \nBenieuwd naar zijn verhaal?",
             "task": "FR - Scan het bordje van Juul, naast dit scherm, en volg haar verhaal tijdens je bezoek aan Westfront",
             "gif": "img/Juul.gif",
             "kleur": "#025159"
@@ -55,7 +55,7 @@
         "A": {
             "text": "EN - Dé gids voor jou is:",
             "name": "Ellie",
-            "description": "EN - Ellie komt uit Brussel en werkt de hele oorlog als verpleegster in de Oceén. \nVeel luisterplezier!",
+            "description": "EN - Ellie komt uit Brussel en werkt de hele oorlog als verpleegster in de Océan. \nVeel luisterplezier!",
             "task": "EN - Scan het bordje van Ellie, naast dit scherm, en volg haar verhaal tijdens je bezoek aan Westfront",
             "gif": "img/Ellie.gif",
             "kleur": "#003264"
@@ -63,7 +63,7 @@
         "B": {
             "text": "EN - Dé gids voor jou is:",
             "name": "Juul",
-            "description": "EN - Juul is geboren en getogen in Nieuwpoort en journalist. \nBenieuwd naar z'n verhaal?",
+            "description": "EN - Juul is geboren en getogen in Nieuwpoort en journalist. \nBenieuwd naar zijn verhaal?",
             "task": "EN - Scan het bordje van Juul, naast dit scherm, en volg haar verhaal tijdens je bezoek aan Westfront",
             "gif": "img/Juul.gif",
             "kleur": "#025159"
@@ -81,7 +81,7 @@
         "A": {
             "text": "DE - Dé gids voor jou is:",
             "name": "Ellie",
-            "description": "DE - Ellie komt uit Brussel en werkt de hele oorlog als verpleegster in de Oceén. \nVeel luisterplezier!",
+            "description": "DE - Ellie komt uit Brussel en werkt de hele oorlog als verpleegster in de Océan. \nVeel luisterplezier!",
             "task": "DE - Scan het bordje van Ellie, naast dit scherm, en volg haar verhaal tijdens je bezoek aan Westfront",
             "gif": "img/Ellie.gif",
             "kleur": "#003264"
@@ -89,7 +89,7 @@
         "B": {
             "text": "DE - Dé gids voor jou is:",
             "name": "Juul",
-            "description": "DE - Juul is geboren en getogen in Nieuwpoort en journalist. \nBenieuwd naar z'n verhaal?",
+            "description": "DE - Juul is geboren en getogen in Nieuwpoort en journalist. \nBenieuwd naar zijn verhaal?",
             "task": "DE - Scan het bordje van Juul, naast dit scherm, en volg haar verhaal tijdens je bezoek aan Westfront",
             "gif": "img/Juul.gif",
             "kleur": "#025159"

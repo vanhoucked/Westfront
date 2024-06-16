@@ -8,19 +8,23 @@ h1, h2, h3 {
 
 #titleStart {
     font-size: 65px;
-    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
+    height: 75%;
+    align-self: flex-start;
 }
 
 #titleStart > p {
     font-size: 35px;
-    margin: 20px 0 0 0;
     font-family: HelveticaNeue;
     align-self: flex-start;
-    margin: 20px 0 0 40px;
+    margin: 40px 0 130px 40px;
+}
+
+#titleStart > h1 {
+    margin: auto;
 }
 
 #slideshowContainer > p {

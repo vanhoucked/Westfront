@@ -10,7 +10,7 @@ let inactiviteitTimer;
 
 function resetTimer() {
     clearTimeout(inactiviteitTimer);
-    inactiviteitTimer = setTimeout(timerVerlopen, 450000); // 0,75 minuten x 60 000 = 45000 milliseconden
+    inactiviteitTimer = setTimeout(timerVerlopen, 45000); // 0,75 minuten x 60 000 = 45000 milliseconden
 }
 
 function selectLanguage(language) {
@@ -42,12 +42,10 @@ async function showTitle() {
         }
         const jsonData = await titleResponse.json();
 
-        console.log(jsonData.startMore);
-
         if (jsonData.titels.length == 1) {
-            titleStartDiv.innerHTML = `<p>${jsonData.startEnkel.toUpperCase()}</p>`;
+            titleStartDiv.innerHTML = `<p>${jsonData.startEnkel}</p>`;
         } else {
-            titleStartDiv.innerHTML = `<p>${jsonData.startMore.toUpperCase()}</p>`;
+            titleStartDiv.innerHTML = `<p>${jsonData.startMore}</p>`;
         }
 
         jsonData.titels.forEach(item => {

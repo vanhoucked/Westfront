@@ -45,7 +45,7 @@ async function showStart() {
     .then(data => {
 
         document.getElementById('titel').innerText = data[selectedLanguage].titel.toUpperCase();
-        document.getElementById('startKnop').innerText = data[selectedLanguage].start.toUpperCase();
+        document.getElementById('startText').innerText = data[selectedLanguage].start.toUpperCase();
         document.getElementById('guideTask').innerText = data[selectedLanguage].welcome;
 
     });
