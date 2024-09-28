@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Control Panel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Buttons voor alle computers -->
+    <div id="all-buttons">
+        <h2>Alle Computers</h2>
+        <button onclick="shutdownAllComputers()">Alles afsluiten</button>
+        <button onclick="rebootAllComputers()">Alles herstarten</button>
+        <button onclick="wakeAllComputers()">Alles opstarten</button>
+    </div>
+
+    <!-- Div to hold the individual computer buttons -->
+    <div id="computers-list">
+        <!-- Dynamically generated buttons for each computer will be placed here -->
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

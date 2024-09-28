@@ -1,0 +1,19 @@
+html {
+    background-image: url('img/Background.png');
+    color: white;
+}
+
+.status {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.online {
+    background-color: green;
+}
+
+.offline {
+    background-color: red;
+}
