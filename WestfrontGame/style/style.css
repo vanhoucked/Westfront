@@ -1,0 +1,8 @@
+#timeline {
+    border: 1px solid red;
+    height: 20vh;
+}
+
+#timeline img{
+    height: 100%;
+}
