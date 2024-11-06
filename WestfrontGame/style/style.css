@@ -1,8 +1,34 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7vh;
+}
+
 #timeline {
     border: 1px solid red;
-    height: 20vh;
+    height: 11vh;
+    width: 98vw;
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
 }
 
 #timeline img{
     height: 100%;
+}
+
+.pic{
+    border: 1px solid green;
+    width: 9%;
+}
+
+#bigImage {
+    width: 30vw;
+    display: flex;
+}
+
+#bigImage img {
+    width: 100%;
 }
