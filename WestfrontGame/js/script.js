@@ -7,7 +7,7 @@ class Game {
     this.index = 1;
 
     // select 10 random images
-    let imageSelection = [...allImages];
+    let imageSelection = [...images];
 
     // Shuffle the array
     for (let i = imageSelection.length - 1; i > 0; i--) {
@@ -32,7 +32,14 @@ class Game {
   loadNextImage(){
     var nextImage = document.createElement("img");
     nextImage.draggable = true;
+    nextImage.id = "img" + this.index;
     nextImage.src = `img/${this.randomImages[this.index]}`;
+
+    // add drag event
+    nextImage.addEventListener("dragstart", function(ev){
+      ev.dataTransfer.setData("text", ev.target.id);
+    })
+  
     document.getElementById('bigImage').appendChild(nextImage);
     this.index++;
   }
