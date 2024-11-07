@@ -7,6 +7,7 @@ for (let i = 0; i < pics.length; i++) {
         ev.preventDefault();
         let data = ev.dataTransfer.getData("text");
         ev.target.appendChild(document.getElementById(data));
+        // check if big image is swiped
         if(!bigImage.hasChildNodes()){
             game.loadNextImage();
         }
