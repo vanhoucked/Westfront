@@ -1,13 +1,17 @@
 var bigImage = document.getElementById("bigImage");
 var pics = document.getElementsByClassName("pic");
 
-pics.array.forEach(element => {
-    element.addEventListener("drop", function(ev){
+
+console.log(pics);
+
+for (let i = 0; i < pics.length; i++) {
+    pics.item(i).addEventListener("drop", function(ev){
         ev.preventDefault();
-        ev.target.appendChild(document.getElementById("bigImage"));
+        ev.target.appendChild(document.getElementById("bigImage").firstChild);
     });
 
-    element.addEventListener("dragover", function(ev){
+    pics.item(i).addEventListener("dragover", function(ev){
         ev.preventDefault();
     });
-});
+}
+
