@@ -25,10 +25,10 @@ body {
 }
 
 #bigImage {
-    width: 30vw;
+    height: 50vh;
     display: flex;
 }
 
 #bigImage img {
-    width: 100%;
+    height: 100%;
 }
