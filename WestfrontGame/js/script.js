@@ -38,12 +38,13 @@ function createPicture(src){
 }
 
 class Timeline{
-    constructor(firstImagesrc){
+    constructor(game){
         this.tlel = document.getElementById("timeline");
+        this.game = game;
         this.content = [];
 
         // add first picture to content array
-        this.content.push(firstImagesrc);
+        this.content.push(`img/${this.game.getImages()[0]}`);
     }
 
     addPic(pic, pos){
@@ -51,12 +52,11 @@ class Timeline{
         newCont.push(pic);
         newCont.push(...this.content.slice(pos));
         this.content = newCont;
-        console.log(this.content);
         this.draw();
+        this.game.loadNextImage();
     }
 
     draw(){
-        console.log(this.content);
         this.tlel.replaceChildren();
         for(let i = 0; i < this.content.length; i++) {
             // draw hitbox before img
@@ -79,7 +79,7 @@ class Timeline{
                 hitbox.addEventListener("drop", (ev) => {
                     ev.preventDefault();
                     let data = ev.dataTransfer.getData("text");
-                    this.addPic(data, i);
+                    this.addPic(data, this.content.length);
                 });
                 this.tlel.appendChild(hitbox);
             }
@@ -92,6 +92,7 @@ class Game {
     constructor(images) {
         // init variables
         this.index = 1;
+        this.bigImage = document.getElementById("bigImage");
 
         // select 10 random images
         let imageSelection = [...images];
@@ -109,12 +110,13 @@ class Game {
         this.randomImages = imageSelection.slice(0, 10);
 
         // create timeline
-        this.timeline = new Timeline("img/" + this.randomImages[0]);
+        this.timeline = new Timeline(this);
         this.timeline.draw();
         this.loadNextImage();
     }
 
     loadNextImage() {
+        this.bigImage.replaceChildren();
         var nextImage = document.createElement("img");
         nextImage.draggable = true;
         let src = `img/${this.randomImages[this.index]}`;
@@ -126,8 +128,12 @@ class Game {
             ev.dataTransfer.setData("text", ev.target.id);
         });
 
-        document.getElementById("bigImage").appendChild(nextImage);
+        this.bigImage.appendChild(nextImage);
         this.index++;
+    }
+    
+    getImages(){
+        return this.randomImages;
     }
 }
 
