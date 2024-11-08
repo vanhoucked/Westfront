@@ -7,7 +7,6 @@ body {
 }
 
 #timeline {
-    border: 1px solid red;
     height: 11vh;
     width: 98vw;
     display: flex;
@@ -20,8 +19,12 @@ body {
 }
 
 .pic{
-    border: 1px solid green;
     width: 9%;
+}
+
+.hitbox {
+    flex-grow: 100;
+    border: 1px solid green;
 }
 
 #bigImage {
