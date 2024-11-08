@@ -37,6 +37,28 @@ function createPicture(src){
     return picture;
 }
 
+function nametoDate(filename){
+    const months =  {
+        "01" : "Januari",
+        "02" : "Februari",
+        "03" : "Maart",
+        "04" : "April",
+        "05" : "Mei",
+        "06" : "Juni",
+        "07" : "Juli",
+        "08" : "Augustus",
+        "09" : "September",
+        "10" : "Oktober",
+        "11" : "November",
+        "12" : "December",
+    }
+
+    let month = filename.substring(4,6);
+    let year = filename.substring(0,4);
+
+    return months[month] + " " + year; 
+}
+
 class Timeline{
     constructor(game){
         this.tlel = document.getElementById("timeline");
@@ -45,6 +67,7 @@ class Timeline{
 
         // add first picture to content array
         this.content.push(`img/${this.game.getImages()[0]}`);
+        this.first = "img/" + this.game.getImages()[0];
     }
 
     addPic(pic, pos){
@@ -61,18 +84,32 @@ class Timeline{
         for(let i = 0; i < this.content.length; i++) {
             // draw hitbox before img
             let hitbox = createHitbox(i);
-            hitbox.addEventListener("drop", 
-                (ev) => {
-                    ev.preventDefault();
-                    let data = ev.dataTransfer.getData("text");
-                    this.addPic(data, i);
+            hitbox.addEventListener("drop", (ev) =>{
+                ev.preventDefault();
+                let data = ev.dataTransfer.getData("text");
+                this.addPic(data, i);
                 }
             );
                 
             this.tlel.appendChild(hitbox);
 
             // draw image
-            this.tlel.appendChild(createPicture(this.content[i]));
+            let image = createPicture(this.content[i]);
+            console.log(image.src.slice(-14).substring(4));
+
+            if(image.src.slice(-14) == this.first){
+                console.log("jep");
+                let div = document.createElement("div");
+                let text = document.createElement("p");
+                text.innerHTML = nametoDate(image.src.slice(-14).substring(4));
+                div.appendChild(image);
+                div.appendChild(text);
+                div.className = "firstimg";
+                image = div;
+            }
+            this.tlel.appendChild(image);
+
+
             // draw last hitbox
             if (i == this.content.length - 1) {
                 let hitbox = createHitbox(this.content.length);
