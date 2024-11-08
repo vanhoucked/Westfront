@@ -49,7 +49,7 @@ class Timeline{
     addPic(pic, pos){
         let newCont = this.content.slice(0, pos);
         newCont.push(pic);
-        newCont.push(this.content.slice(pos));
+        newCont.push(...this.content.slice(pos));
         this.content = newCont;
         console.log(this.content);
         this.draw();
