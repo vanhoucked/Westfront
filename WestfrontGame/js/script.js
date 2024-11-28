@@ -15,6 +15,7 @@ const allImages = [
 ];
 // var secondWindow = window.open("secondScreen.html", "", "width=800,height=800");
 
+
 function createHitbox(id){
     let hitbox = document.createElement("div");
     hitbox.className = "hitbox";
@@ -68,19 +69,25 @@ class Timeline{
         // add first picture to content array
         this.content.push(`img/${this.game.getImages()[0]}`);
         this.first = "img/" + this.game.getImages()[0];
+        this.lastPlaced;
     }
 
     addPic(pic, pos){
         let newCont = this.content.slice(0, pos);
         newCont.push(pic);
+        this.lastPlaced = pic;
         newCont.push(...this.content.slice(pos));
         this.content = newCont;
         this.draw();
+        // check if correct
+        console.log(this.checkOrder());
+        // correct
         this.game.loadNextImage();
     }
 
     draw(){
         this.tlel.replaceChildren();
+        console.log(this.content);
         for(let i = 0; i < this.content.length; i++) {
             // draw hitbox before img
             let hitbox = createHitbox(i);
@@ -95,10 +102,8 @@ class Timeline{
 
             // draw image
             let image = createPicture(this.content[i]);
-            console.log(image.src.slice(-14).substring(4));
 
             if(image.src.slice(-14) == this.first){
-                console.log("jep");
                 let div = document.createElement("div");
                 let text = document.createElement("p");
                 text.innerHTML = nametoDate(image.src.slice(-14).substring(4));
@@ -121,6 +126,18 @@ class Timeline{
                 this.tlel.appendChild(hitbox);
             }
         }
+    }
+
+    checkOrder(){
+        let previous = 0;
+        for(let i = 0; i < this.content.length; i++){
+            let current = parseInt(this.content[i].substring(4,10));
+            if(current < previous){
+                return this.lastPlaced;
+            }
+            previous = current;
+        }
+        return null;
     }
 
 }
