@@ -78,10 +78,19 @@ class Timeline{
         this.lastPlaced = pic;
         newCont.push(...this.content.slice(pos));
         this.content = newCont;
-        this.draw();
         // check if correct
-        console.log(this.checkOrder());
-        // correct
+        let wrong = this.checkOrder();
+        if (wrong != null) { // fout
+            this.game.wrongPhoto();
+            // remove from timeline;
+            this.content = this.content.filter(function(item) {
+                return item !== wrong;
+            });
+        }else { // correct
+            this.game.correctPhoto();
+        }
+
+        this.draw();
         this.game.loadNextImage();
     }
 
@@ -167,6 +176,11 @@ class Game {
         this.timeline = new Timeline(this);
         this.timeline.draw();
         this.loadNextImage();
+
+        //badges
+        this.badges = document.getElementsByClassName("badge");
+        this.prevWrong = 0;
+        this.badgeindex = 0;
     }
 
     loadNextImage() {
@@ -188,6 +202,23 @@ class Game {
     
     getImages(){
         return this.randomImages;
+    }
+
+    wrongPhoto(){
+        this.index--;
+        this.prevWrong = 1;
+    }
+
+    correctPhoto(){
+        if (this.prevWrong == 1){
+            this.prevWrong = 0;
+            return;
+        }
+        // color next badge
+        this.badges[this.badgeindex].classList.add("correct");
+        this.badgeindex++;
+
+        this.prevWrong = 0;
     }
 }
 
