@@ -13,7 +13,6 @@ const allImages = [
     "192012.jpg",
     "192812.jpg",
 ];
-// var secondWindow = window.open("secondScreen.html", "", "width=800,height=800");
 
 
 function createHitbox(id){
@@ -32,9 +31,6 @@ function createPicture(src){
     picture.id = src;
     picture.draggable = false;
 
-    picture.addEventListener("dragstart", function(ev){
-        ev.dataTransfer.setData("text", ev.target.id);
-    });
     return picture;
 }
 
@@ -157,6 +153,9 @@ class Game {
         this.index = 1;
         this.bigImage = document.getElementById("bigImage");
 
+        // create second window
+        var newWindow = window.open("secondScreen.html", "", "width=1920,height=1080");
+
         // select 10 random images
         let imageSelection = [...images];
 
@@ -181,6 +180,9 @@ class Game {
         this.badges = document.getElementsByClassName("badge");
         this.prevWrong = 0;
         this.badgeindex = 0;
+
+        //FIXME: do this when dom is loaded
+        this.secondWindow = newWindow.document.getElementById("container");
     }
 
     loadNextImage() {
@@ -207,9 +209,15 @@ class Game {
     wrongPhoto(){
         this.index--;
         this.prevWrong = 1;
+        this.secondWindow.classList.remove("correct");
+        this.secondWindow.classList.add("wrong");
+        // Do shit on second screen
+
     }
 
     correctPhoto(){
+        this.secondWindow.classList.remove("wrong");
+        this.secondWindow.classList.add("correct");
         if (this.prevWrong == 1){
             this.prevWrong = 0;
             return;
